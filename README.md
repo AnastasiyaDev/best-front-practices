@@ -69,7 +69,8 @@ select {
 }
 ```
 * Удобный [сайт](http://yoksel.github.io/flex-cheatsheet/#display) для понимая `flex` 
-* Можно проверить [поддержку css-свойств и не только](https://www.campaignmonitor.com/css/color-background/background-clip/)  * [Треугольники на css](https://css-tricks.com/snippets/css/css-triangle/) 
+* [Поддержка css-свойств и не только](https://www.campaignmonitor.com/css/color-background/background-clip/)  
+* [Треугольники на css](https://css-tricks.com/snippets/css/css-triangle/) 
 * [Градиент при избыточной прокрутке](http://plnkr.co/edit/agPbF2XDrjyiTWYpovOl?p=preview)  
 * [Поддержка медиа-выражений в письмах](https://github.com/AnastasiyaDev/best-front-practices/blob/master/images/media-in-emails.jpg) на февраль 2018 года
 
