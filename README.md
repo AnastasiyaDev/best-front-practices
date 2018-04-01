@@ -1,4 +1,4 @@
-# best-front-practices
+# Best frontend practices
 
 ### Дизайн 
 
@@ -24,14 +24,14 @@
 * [онлайн типографов](https://www.artlebedev.ru/typograf/) - для оформление текста, чтобы не расставлять ручками неразрывные пробелы и т.п.  
 * Оптимальная высота строки (line-height) 1.4 — 1.8 от размера шрифта.  
 * [Конвертор шрифтов](https://onlinefontconverter.com/)  
-* на айфоне бывает неконтролируемый резайз шрифтов, надо поробовать добавить: `-webkit-text-size-adjust: none;`  
+* На айфоне бывает неконтролируемый резайз шрифтов, надо поробовать добавить: `-webkit-text-size-adjust: none;`  
 
 
 ### Изображения 
 
-* инфо по тегу `<picture>` [с кучей примеров](https://frontender.info/responsive-images/)
-* сделать одноцветную [png](http://png-pixel.com/)
-* плагин `postcss-inline-svg` который при сборке может менять фон SVG и его инлайнить, [подробнее](https://css-tricks.com/images-in-postcss/#article-header-id-5)
+* Инфо по тегу `<picture>` [с кучей примеров](https://frontender.info/responsive-images/)
+* Сделать одноцветную [png](http://png-pixel.com/)
+* Плагин `postcss-inline-svg` который при сборке может менять фон SVG и его инлайнить, [подробнее](https://css-tricks.com/images-in-postcss/#article-header-id-5)
 * [картинки-превью](https://stackoverflow.com/questions/2068344/how-do-i-get-a-youtube-video-thumbnail-from-the-youtube-api) для видео на YT 
 
 ### Верстка элементов 
@@ -56,7 +56,7 @@ select {
 }
 ```
 * `clip` [статья для понимания](http://css.manual.ru/properties/clip)
-* для `input[type='number']`   
+* Для `input[type='number']`   
 ```
 &:-moz-focusring {
     outline: none;
@@ -68,10 +68,10 @@ select {
     margin: 0;
 }
 ```
-* удобный [сайт](http://yoksel.github.io/flex-cheatsheet/#display) для понимая `flex` 
-* можно проверить [поддержку css-свойств и не только](https://www.campaignmonitor.com/css/color-background/background-clip/) * [треугольники на css](https://css-tricks.com/snippets/css/css-triangle/) 
+* Удобный [сайт](http://yoksel.github.io/flex-cheatsheet/#display) для понимая `flex` 
+* Можно проверить [поддержку css-свойств и не только](https://www.campaignmonitor.com/css/color-background/background-clip/) * [треугольники на css](https://css-tricks.com/snippets/css/css-triangle/) 
 * [Градиент при избыточной прокрутке](http://plnkr.co/edit/agPbF2XDrjyiTWYpovOl?p=preview)  
-* [поддержка медиа-выражений в письмах]() на февраль 2018 года
+* [Поддержка медиа-выражений в письмах](https://github.com/AnastasiyaDev/best-front-practices/blob/master/images/media-in-emails.jpg) на февраль 2018 года
 
 ### Полезные плагины для браузера
 * Page Ruler
@@ -80,14 +80,12 @@ select {
 * Tampermonkey
 
 ### Полезные плагины(на JS/jQuery)
-* [счетчик](https://inorganik.github.io/countUp.js/)
-* FireShot
-* PerfectPixel by WellDoneCode
-* Tampermonkey
+* [Счетчик](https://inorganik.github.io/countUp.js/)
+
 
 ### Сслыки
 * Микроразметка, пояснения [от яндекс](https://yandex.ru/support/webmaster/schema-org/what-is-schema-org.xml), [schema.org](http://schema.org/docs/gs.html)  
-* установка [NPM глобально](https://docs.npmjs.com/getting-started/fixing-npm-permissions) - на убунте нормально не работает
+* Установка [NPM глобально](https://docs.npmjs.com/getting-started/fixing-npm-permissions) - на убунте нормально не работает
 * https://lawsofux.com/
-* полезная [статья](https://bespoyasov.ru/front-not-pain/#progress) про фронтэнд разработку
+* Полезная [статья](https://bespoyasov.ru/front-not-pain/#progress) про фронтэнд разработку
 * [sessionStorage](https://developer.mozilla.org/ru/docs/Web/API/Window/sessionStorage)
