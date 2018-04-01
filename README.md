@@ -21,7 +21,7 @@
 #### Не каждая кнопка нуждается в цветном фоне
 
 ### Текст/Шрифты
-* [онлайн типографов](https://www.artlebedev.ru/typograf/) - для оформление текста, чтобы не расставлять ручками неразрывные пробелы и т.п.  
+* [Онлайн типографов](https://www.artlebedev.ru/typograf/) - для оформление текста, чтобы не расставлять ручками неразрывные пробелы и т.п.  
 * Оптимальная высота строки (line-height) 1.4 — 1.8 от размера шрифта.  
 * [Конвертор шрифтов](https://onlinefontconverter.com/)  
 * На айфоне бывает неконтролируемый резайз шрифтов, надо поробовать добавить: `-webkit-text-size-adjust: none;`  
@@ -69,7 +69,7 @@ select {
 }
 ```
 * Удобный [сайт](http://yoksel.github.io/flex-cheatsheet/#display) для понимая `flex` 
-* Можно проверить [поддержку css-свойств и не только](https://www.campaignmonitor.com/css/color-background/background-clip/) * [треугольники на css](https://css-tricks.com/snippets/css/css-triangle/) 
+* Можно проверить [поддержку css-свойств и не только](https://www.campaignmonitor.com/css/color-background/background-clip/)  * [Треугольники на css](https://css-tricks.com/snippets/css/css-triangle/) 
 * [Градиент при избыточной прокрутке](http://plnkr.co/edit/agPbF2XDrjyiTWYpovOl?p=preview)  
 * [Поддержка медиа-выражений в письмах](https://github.com/AnastasiyaDev/best-front-practices/blob/master/images/media-in-emails.jpg) на февраль 2018 года
 
@@ -80,7 +80,7 @@ select {
 * Tampermonkey
 
 ### Полезные плагины(на JS/jQuery)
-* [Счетчик](https://inorganik.github.io/countUp.js/)
+* Счетчик - [countUp.js](https://inorganik.github.io/countUp.js/)
 
 
 ### Сслыки
