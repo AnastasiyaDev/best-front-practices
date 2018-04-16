@@ -28,7 +28,6 @@
 
 
 ### Изображения 
-
 * Инфо по тегу `<picture>` [с кучей примеров](https://frontender.info/responsive-images/)
 * Сделать одноцветную [png](http://png-pixel.com/)
 * Плагин `postcss-inline-svg` который при сборке может менять фон SVG и его инлайнить, [подробнее](https://css-tricks.com/images-in-postcss/#article-header-id-5)
@@ -69,10 +68,15 @@ select {
 }
 ```
 * Удобный [сайт](http://yoksel.github.io/flex-cheatsheet/#display) для понимая `flex` 
-* [Поддержка css-свойств и не только](https://www.campaignmonitor.com/css/color-background/background-clip/)  
 * [Треугольники на css](https://css-tricks.com/snippets/css/css-triangle/) 
 * [Градиент при избыточной прокрутке](http://plnkr.co/edit/agPbF2XDrjyiTWYpovOl?p=preview)  
+
+
+### Письма
+* [Кнопки для писем](https://buttons.cm/)
+* [Поддержка css-свойств и не только](https://www.campaignmonitor.com/css/color-background/background-clip/)  
 * [Поддержка медиа-выражений в письмах](https://github.com/AnastasiyaDev/best-front-practices/blob/master/images/media-in-emails.jpg) на февраль 2018 года
+
 
 ### Полезные плагины для браузера
 * Page Ruler
@@ -80,9 +84,9 @@ select {
 * PerfectPixel by WellDoneCode
 * Tampermonkey
 
+
 ### Полезные плагины(на JS/jQuery)
 * Счетчик - [countUp.js](https://inorganik.github.io/countUp.js/)
-
 
 ### Сслыки
 * Микроразметка, пояснения [от яндекс](https://yandex.ru/support/webmaster/schema-org/what-is-schema-org.xml), [schema.org](http://schema.org/docs/gs.html)  
