@@ -70,7 +70,15 @@ select {
 * Удобный [сайт](http://yoksel.github.io/flex-cheatsheet/#display) для понимая `flex` 
 * [Треугольники на css](https://css-tricks.com/snippets/css/css-triangle/) 
 * [Градиент при избыточной прокрутке](http://plnkr.co/edit/agPbF2XDrjyiTWYpovOl?p=preview)  
-
+* Старое-доброе позиционирование по ценру
+```
+.divInCenter {
+    width: 300px; /* жестко задана ширина */
+    position: absolute;
+    left: 50%;
+    margin-left: -150px; /* отрицательный отступ равный 1/2 ширины (width) позиционируемого блока */ 
+}
+```
 
 ### Письма
 * [Кнопки для писем](https://buttons.cm/)
