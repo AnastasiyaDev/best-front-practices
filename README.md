@@ -33,6 +33,12 @@
 * Плагин `postcss-inline-svg` который при сборке может менять фон SVG и его инлайнить, [подробнее](https://css-tricks.com/images-in-postcss/#article-header-id-5)
 * [картинки-превью](https://stackoverflow.com/questions/2068344/how-do-i-get-a-youtube-video-thumbnail-from-the-youtube-api) для видео на YT 
 
+### Видео
+* [документация гугла](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes) . 
+**ВАЖНО** не забыть атрибут `muted` на `<video>` с `autoplay`  
+
+
+
 ### Верстка элементов 
 * `<select>` [кроссбраузерная стилизация select ](http://kate-land.net/html-css/item/336-cross-browser-styling-of-select-on-pure-css)  
 
