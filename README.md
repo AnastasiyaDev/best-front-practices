@@ -37,6 +37,8 @@
 * [документация гугла](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes) . 
 **ВАЖНО** не забыть атрибут `muted` на `<video>` с `autoplay`  
 
+* атрибут `playsinline` у `<video>` не позволяет ему воспроизводиться в полноэкранном режиме на iPhone
+
 
 
 ### Верстка элементов 
