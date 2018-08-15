@@ -87,6 +87,7 @@ select {
     margin-left: -150px; /* отрицательный отступ равный 1/2 ширины (width) позиционируемого блока */ 
 }
 ```
+* Пульсирующий волны [от круга](https://codepen.io/davidmellul/pen/BVQrrg)
 
 ### Письма
 * [Кнопки для писем](https://buttons.cm/)
@@ -103,6 +104,11 @@ select {
 
 ### Полезные плагины(на JS/jQuery)
 * Счетчик - [countUp.js](https://inorganik.github.io/countUp.js/)
+* Проверка наличия элемента во вьюпорте - [jquery-visible](https://github.com/customd/jquery-visible)
+* Анимированое появление элементов, плагин платный - [wowjs](https://github.com/matthieua/WOW)
+* Параллакс для фона - [jquery-parallax.js](http://pixelcog.github.io/parallax.js/)
+* Параллакс для фиксированных блоков на странице - [rellax](https://www.npmjs.com/package/relax)
+
 
 ### Сслыки
 * Микроразметка, пояснения [от яндекс](https://yandex.ru/support/webmaster/schema-org/what-is-schema-org.xml), [schema.org](http://schema.org/docs/gs.html)  
@@ -110,3 +116,6 @@ select {
 * https://lawsofux.com/
 * Полезная [статья](https://bespoyasov.ru/front-not-pain/#progress) про фронтэнд разработку
 * [sessionStorage](https://developer.mozilla.org/ru/docs/Web/API/Window/sessionStorage)
+* Ресурс для изучения [git](https://learngitbranching.js.org/), еще не тыкала, но выглядит удобно
+* Статья про бесплатные [конструкторы сайтов](https://tproger.ru/digest/website-builders-review/)
+* [keyframes.app](https://keyframes.app/)
