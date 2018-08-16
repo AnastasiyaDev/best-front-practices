@@ -93,6 +93,7 @@ select {
 * [Кнопки для писем](https://buttons.cm/)
 * [Поддержка css-свойств и не только](https://www.campaignmonitor.com/css/color-background/background-clip/)  
 * [Поддержка медиа-выражений в письмах](https://github.com/AnastasiyaDev/best-front-practices/blob/master/images/media-in-emails.jpg) на февраль 2018 года
+* [Таймер](https://www.sendtric.com/)
 
 
 ### Полезные плагины для браузера
