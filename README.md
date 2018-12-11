@@ -88,12 +88,31 @@ select {
 }
 ```
 * Пульсирующий волны [от круга](https://codepen.io/davidmellul/pen/BVQrrg)
+* [Подергивание элемента](https://plnkr.co/edit/cuyRYHG8KpVIzbdO2Gqf?p=preview) 
+* Анимации для [гамбургер-меню](https://codepen.io/ainalem/details/LJYRxz/)
 
 ### Письма
 * [Кнопки для писем](https://buttons.cm/)
 * [Поддержка css-свойств и не только](https://www.campaignmonitor.com/css/color-background/background-clip/)  
 * [Поддержка медиа-выражений в письмах](https://github.com/AnastasiyaDev/best-front-practices/blob/master/images/media-in-emails.jpg) на февраль 2018 года
 * [Таймер](https://www.sendtric.com/)
+* Какие шрифты использовать
+```
+Без засечек:
+*   Arial
+*   Arial Black
+*   Tahoma
+*   Trebuchet MS
+*   Verdana
+* Lucida Console 
+
+С засечками:
+*   Courier
+*   Courier New
+*   Georgia
+*   Times
+*   Times New Roman
+```
 
 
 ### Полезные плагины для браузера
@@ -109,6 +128,27 @@ select {
 * Анимированое появление элементов, плагин платный - [wowjs](https://github.com/matthieua/WOW)
 * Параллакс для фона - [jquery-parallax.js](http://pixelcog.github.io/parallax.js/)
 * Параллакс для фиксированных блоков на странице - [rellax](https://www.npmjs.com/package/relax)
+* Слайдер 3D, возможностей не хватает и работает как-то костыльно, но бесплатен и уже используется на килзе и лореале - [jQuery Rondell](https://www.jqueryscript.net/demo/Highly-Customizable-Carousel-Plugin-For-jQuery-rondell/examples/options.html) - стоит поискать аналог
+* flipclock 
+```
+var date    = new Date(2018, 2, 31, 24),
+                now     = new Date(),
+                diff    = (date.getTime() / 1000) - (now.getTime() / 1000),
+                seconds = (diff > 0) ? diff : 0,
+                clock;
+
+            clock = new FlipClock(this.$timer, {
+                clockFace: 'DailyCounter',
+                countdown: true,
+                language: 'ru-ru',
+                showSeconds: true,
+                autoStart: false
+            });
+
+            clock.setTime(seconds);
+            clock.start();
+```
+
 
 
 ### Сслыки
@@ -120,3 +160,7 @@ select {
 * Ресурс для изучения [git](https://learngitbranching.js.org/), еще не тыкала, но выглядит удобно
 * Статья про бесплатные [конструкторы сайтов](https://tproger.ru/digest/website-builders-review/)
 * [keyframes.app](https://keyframes.app/)
+
+TODO @me
+- [ ] Сделать пример по [видео](https://www.youtube.com/watch?v=C9EWifQ5xqA)
+- [ ] Пополнить список плагинов
