@@ -93,6 +93,7 @@ select {
 
 ### Письма
 * [Кнопки для писем](https://buttons.cm/)
+* [Мапинг картинок](https://www.image-map.net/)
 * [Поддержка css-свойств и не только](https://www.campaignmonitor.com/css/color-background/background-clip/)  
 * [Поддержка медиа-выражений в письмах](https://github.com/AnastasiyaDev/best-front-practices/blob/master/images/media-in-emails.jpg) на февраль 2018 года
 * [Таймер](https://www.sendtric.com/)
