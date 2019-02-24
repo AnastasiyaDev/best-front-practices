@@ -90,7 +90,7 @@ select {
 * Пульсирующий волны [от круга](https://codepen.io/davidmellul/pen/BVQrrg)
 * [Подергивание элемента](https://plnkr.co/edit/cuyRYHG8KpVIzbdO2Gqf?p=preview) 
 * Анимации для [гамбургер-меню](https://codepen.io/ainalem/details/LJYRxz/)
-* Контентная картинка, [как бэкграунд-cover через svg](https://next.plnkr.co/plunk/3o9fcVQsmtbLwUFlKv8Y) + [статья](https://www.sarasoueidan.com/blog/svg-object-fit/) 
+* Контентная картинка, [как бэкграунд-cover через svg](https://next.plnkr.co/plunk/3o9fcVQsmtbLwUFlKv8Y) + [статья](https://www.sarasoueidan.com/blog/svg-object-fit/), но в таком способе использования (через svg) приоритет загрузки у картинки всегда будет LOW
 
 ### Письма
 * [Кнопки для писем](https://buttons.cm/)
@@ -122,6 +122,7 @@ select {
 * FireShot
 * PerfectPixel by WellDoneCode
 * Tampermonkey
+* Siteimprove Accessibility Checker
 
 
 ### Полезные плагины(на JS/jQuery)
