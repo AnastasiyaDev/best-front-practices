@@ -45,6 +45,7 @@
 
 
 ### Верстка элементов 
+* Верстка простых элементов [круг, квадрат, треугольник](https://codepen.io/miocene/pen/LOoGpr)
 * `<select>` [кроссбраузерная стилизация select ](http://kate-land.net/html-css/item/336-cross-browser-styling-of-select-on-pure-css)  
 
 ```
