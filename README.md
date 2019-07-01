@@ -138,6 +138,7 @@ select {
 * PerfectPixel by WellDoneCode
 * Tampermonkey
 * Siteimprove Accessibility Checker
+* [Switcheroo Redirector](https://chrome.google.com/webstore/detail/switcheroo-redirector/cnmciclhnghalnpfhhleggldniplelbg/related?hl=ru)
 
 
 ### Полезные плагины(на JS/jQuery)
