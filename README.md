@@ -34,7 +34,7 @@
 * Плагин `postcss-inline-svg` который при сборке может менять фон SVG и его инлайнить, [подробнее](https://css-tricks.com/images-in-postcss/#article-header-id-5)
 * [картинки-превью](https://stackoverflow.com/questions/2068344/how-do-i-get-a-youtube-video-thumbnail-from-the-youtube-api) для видео на YT 
 * [Иконки](https://icons8.com/), в частности [svg-прелодеры](https://icons8.com/preloaders/)
-* Ленивая загрузка изображений, в данной случае фонового, с помощью [Intersection Observer API](https://codepen.io/imagekit_io/pen/RBXVrW/)
+* Ленивая загрузка изображений, в данной случае фонового, с помощью [Intersection Observer API](https://codepen.io/imagekit_io/pen/RBXVrW/). [Документация](https://developer.mozilla.org/ru/docs/Web/API/Intersection_Observer_API) с примерами. [Поддержка](https://caniuse.com/#search=Intersection%20Observer%20API) хорошая, в IE конечно нет.
 
 
 ### Видео
