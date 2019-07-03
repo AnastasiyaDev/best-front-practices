@@ -181,6 +181,7 @@ var date    = new Date(2018, 2, 31, 24),
 * Ресурс для изучения [git](https://learngitbranching.js.org/), еще не тыкала, но выглядит удобно
 * Статья про бесплатные [конструкторы сайтов](https://tproger.ru/digest/website-builders-review/)
 * [keyframes.app](https://keyframes.app/)
+* [cssgrid-generator](https://cssgrid-generator.netlify.com/)
 
 TODO @me
 - [ ] Сделать пример по [видео](https://www.youtube.com/watch?v=C9EWifQ5xqA)
