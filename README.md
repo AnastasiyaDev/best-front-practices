@@ -150,7 +150,7 @@ select {
 * Параллакс для фона - [jquery-parallax.js](http://pixelcog.github.io/parallax.js/)
 * Параллакс для фиксированных блоков на странице - [rellax](https://www.npmjs.com/package/relax)
 * Слайдер 3D, возможностей не хватает и работает как-то костыльно, но бесплатен и уже используется на килзе и лореале - [jQuery Rondell](https://www.jqueryscript.net/demo/Highly-Customizable-Carousel-Plugin-For-jQuery-rondell/examples/options.html) - стоит поискать аналог
-* flipclock 
+* flipclock — вылезла проблема, не работает корректно, если стоит больше 2х недель
 ```
 var date    = new Date(2018, 2, 31, 24),
                 now     = new Date(),
@@ -169,7 +169,26 @@ var date    = new Date(2018, 2, 31, 24),
             clock.setTime(seconds);
             clock.start();
 ```
+* [countdownjs](http://countdownjs.org/demo.html) — нашла как альтернативу **flipclock**, документация так себе, но разобраться можно
+```
+var date = new Date(2020, 0, 15, 0, 0);
 
+countdown(
+    date,
+    function(ts) {
+        document.getElementById('mcaTimer').innerHTML = ts.toHTML('strong');
+    },
+    countdown.DAYS|countdown.HOURS|countdown.MINUTES,
+    countdown.setLabels(
+        ' milliseconde| секунда| минута| час| день| semaine| mois| année| décennie| siècle| millénaire',
+        ' millisecondes| секунд| минут| часов| дней| semaines| mois| années| décennies| siècles| millénaires',
+        ' ',
+        ' ',
+        ' ',
+        function(n){return '<span class="mca-2018-timer__numeric">' + n + '</span><br>'; }
+    )
+);
+```
 
 
 ### Сслыки
