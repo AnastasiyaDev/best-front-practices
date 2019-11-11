@@ -96,7 +96,7 @@ select {
 * [Подергивание элемента](https://plnkr.co/edit/cuyRYHG8KpVIzbdO2Gqf?p=preview) 
 * Анимации для [гамбургер-меню](https://codepen.io/ainalem/details/LJYRxz/)
 * Контентная картинка, [как бэкграунд-cover через svg](https://next.plnkr.co/plunk/3o9fcVQsmtbLwUFlKv8Y) + [статья](https://www.sarasoueidan.com/blog/svg-object-fit/), но в таком способе использования (через svg) приоритет загрузки у картинки всегда будет LOW
-* truncate,  [статья](https://css-tricks.com/almanac/properties/l/line-clamp/) 
+* truncate, [статья](https://css-tricks.com/almanac/properties/l/line-clamp/). [Truncate](https://codepen.io/anastasiyadev/pen/QWWBMbx) для select
 ```
 .text-block {
     overflow: hidden;
