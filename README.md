@@ -108,6 +108,13 @@ select {
 ```
 * [Паттерны для таблиц с логикой](https://www.smashingmagazine.com/2019/01/table-design-patterns-web/)
 * `inputmode` - атрибут для `input` и `textarea` указывающий какую клаву на мобилке открыть, крутая и удобная штука, но поддержка в линейке iphone начия от 6го, а на рынке еще много 5к. [Сататья про inputmode](https://css-tricks.com/everything-you-ever-wanted-to-know-about-inputmode/) 
+* Повернутый текст
+```
+.rotated {
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+}
+```
 
 ### Письма
 * [Кнопки для писем](https://buttons.cm/)
