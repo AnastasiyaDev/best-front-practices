@@ -67,6 +67,8 @@ select {
     color: black;
 }
 ```
+Возможно нужен не селект на самом деле, есть еще [datalist](https://developer.mozilla.org/ru/docs/Web/HTML/Element/datalist) и [optgroup](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup)
+
 * `clip` [статья для понимания](http://css.manual.ru/properties/clip)
 * Для `input[type='number']`   
 ```
