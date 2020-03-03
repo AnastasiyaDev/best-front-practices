@@ -117,6 +117,36 @@ select {
     transform: rotate(-180deg);
 }
 ```
+* для ссылки на pdf хорошо бы указывать `type`
+```
+<a href="doc.pdf" type="application/pdf">
+    PDF
+</a>
+```
+* Управляет доступом к заголовку Referer
+```
+<a href="https://some-site.com"
+   referrerpolicy="no-referrer">
+   External Resource
+</a>
+```
+* Можно указать в ссылке на почту так же тему письма, кого поставить в копию и др.
+```
+mailto:mefody@yandex-team.ru
+      ?cc=dark.mefody@yandex.ru,n.a.dubko@gmail.com
+      &bcc=n.a.dubko@gmail.com
+      &subject=I%20Love%20Frontend%202020
+      &body=Хочу%20выступить
+```
+* Для ссылки, открывающейся в новом окне хорошо бы это показать, например, иконка перед текстом
+```
+a[target="_blank"]::before {
+    content: url('path-to-icon.svg');
+}
+```
+* Задержка после таба по устройству - **300ms**, чтобы его исключить - `touch-action: manipulation`. Не поддерживается только в сафари
+* Библиотека для фокуса на элементах - [flying-focus](https://github.com/NV/flying-focus)
+* `text-decoration-skip-ink: auto` делает красовое подчеркивание. Работает в хром и FF
 
 ### Письма
 * [Кнопки для писем](https://buttons.cm/)
