@@ -49,7 +49,7 @@
 * Верстка простых элементов [круг, квадрат, треугольник](https://codepen.io/miocene/pen/LOoGpr)
 * `<select>` [кроссбраузерная стилизация select ](http://kate-land.net/html-css/item/336-cross-browser-styling-of-select-on-pure-css)  
 
-```
+```css
 select {
     width: 100%;
     border: 0;
@@ -71,7 +71,7 @@ select {
 
 * `clip` [статья для понимания](http://css.manual.ru/properties/clip)
 * Для `input[type='number']`   
-```
+```css
 &:-moz-focusring {
     outline: none;
 }
@@ -86,7 +86,7 @@ select {
 * [Треугольники на css](https://css-tricks.com/snippets/css/css-triangle/) 
 * [Градиент при избыточной прокрутке](http://plnkr.co/edit/agPbF2XDrjyiTWYpovOl?p=preview)  
 * Старое-доброе позиционирование по ценру
-```
+```css
 .divInCenter {
     width: 300px; /* жестко задана ширина */
     position: absolute;
@@ -99,7 +99,7 @@ select {
 * Анимации для [гамбургер-меню](https://codepen.io/ainalem/details/LJYRxz/)
 * Контентная картинка, [как бэкграунд-cover через svg](https://next.plnkr.co/plunk/3o9fcVQsmtbLwUFlKv8Y) + [статья](https://www.sarasoueidan.com/blog/svg-object-fit/), но в таком способе использования (через svg) приоритет загрузки у картинки всегда будет LOW
 * truncate, [статья](https://css-tricks.com/almanac/properties/l/line-clamp/). [Truncate](https://codepen.io/anastasiyadev/pen/QWWBMbx) для select
-```
+```css
 .text-block {
     overflow: hidden;
     height: 40px;
@@ -111,35 +111,29 @@ select {
 * [Паттерны для таблиц с логикой](https://www.smashingmagazine.com/2019/01/table-design-patterns-web/)
 * `inputmode` - атрибут для `input` и `textarea` указывающий какую клаву на мобилке открыть, крутая и удобная штука, но поддержка в линейке iphone начия от 6го, а на рынке еще много 5к. [Сататья про inputmode](https://css-tricks.com/everything-you-ever-wanted-to-know-about-inputmode/) 
 * Повернутый текст
-```
+```css
 .rotated {
     writing-mode: tb-rl;
     transform: rotate(-180deg);
 }
 ```
-* для ссылки на pdf хорошо бы указывать `type`
-```
-<a href="doc.pdf" type="application/pdf">
-    PDF
-</a>
-```
 * Управляет доступом к заголовку Referer
-```
+```html
 <a href="https://some-site.com"
    referrerpolicy="no-referrer">
    External Resource
 </a>
 ```
 * Можно указать в ссылке на почту так же тему письма, кого поставить в копию и др.
-```
-mailto:mefody@yandex-team.ru
+```html
+<a href="mailto:mefody@yandex-team.ru
       ?cc=dark.mefody@yandex.ru,n.a.dubko@gmail.com
       &bcc=n.a.dubko@gmail.com
       &subject=I%20Love%20Frontend%202020
-      &body=Хочу%20выступить
+      &body=Хочу%20выступить">
 ```
 * Для ссылки, открывающейся в новом окне хорошо бы это показать, например, иконка перед текстом
-```
+```css
 a[target="_blank"]::before {
     content: url('path-to-icon.svg');
 }
@@ -190,7 +184,7 @@ a[target="_blank"]::before {
 * Параллакс для фиксированных блоков на странице - [rellax](https://www.npmjs.com/package/relax)
 * Слайдер 3D, возможностей не хватает и работает как-то костыльно, но бесплатен и уже используется на килзе и лореале - [jQuery Rondell](https://www.jqueryscript.net/demo/Highly-Customizable-Carousel-Plugin-For-jQuery-rondell/examples/options.html) - стоит поискать аналог
 * flipclock — вылезла проблема, не работает корректно, если стоит больше 2х недель
-```
+```javascript
 var date    = new Date(2018, 2, 31, 24),
                 now     = new Date(),
                 diff    = (date.getTime() / 1000) - (now.getTime() / 1000),
@@ -209,7 +203,7 @@ var date    = new Date(2018, 2, 31, 24),
             clock.start();
 ```
 * [countdownjs](http://countdownjs.org/demo.html) — нашла как альтернативу **flipclock**, документация так себе, но разобраться можно
-```
+```javascript
 var date = new Date(2020, 0, 15, 0, 0);
 
 countdown(
