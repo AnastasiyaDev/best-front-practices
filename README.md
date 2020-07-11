@@ -141,6 +141,18 @@ a[target="_blank"]::before {
 * Задержка после таба по устройству - **300ms**, чтобы его исключить - `touch-action: manipulation`. Не поддерживается только в сафари
 * Библиотека для фокуса на элементах - [flying-focus](https://github.com/NV/flying-focus)
 * `text-decoration-skip-ink: auto` делает красовое подчеркивание. Работает в хром и FF
+* Галочка на CSS:
+```
+content: '';
+position: absolute;
+left: 5px;
+top: 5px;
+width: 5px;
+height: 9px;
+border: solid @white;
+border-width: 0 2px 2px 0;
+transform: rotate(45deg);
+```
 
 ### Письма
 * [Кнопки для писем](https://buttons.cm/)
